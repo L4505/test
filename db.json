@@ -1,83 +1,11 @@
 {
-    "lash": [
-      {
-        "id": 0,
-        "collectorID": 100,
-        "name": "L1",
-        "timestamp": "10:00",
-        "initForce": "1000",
-        "force": "700"
-      },
-      {
-        "id": 1,
-        "collectorID": 100,
-        "name": "L2",
-        "timestamp": "10:03",
-        "initForce": "1200",
-        "force": "900"
-      },
-      {
-        "id": 2,
-        "collectorID": 101,
-        "name": "L3",
-        "timestamp": "10:05",
-        "initForce": "1600",
-        "force": "500"
-      },
-      {
-        "id": 3,
-        "collectorID": 101,
-        "name": "L4",
-        "timestamp": "10:10",
-        "initForce": "800",
-        "force": "100"
-      }
-    ],
-    "collector": [
-        {
-            "id": 100,
-            "name": "C1",
-            "connectedStraps": [
-                {
-                    "id": 0,
-                    "collectorID": 100,
-                    "name": "L1",
-                    "timestamp": "10:00",
-                    "initForce": "1000",
-                    "force": "700"
-                 },
-                  {
-                    "id": 1,
-                    "collectorID": 100,
-                    "name": "L2",
-                    "timestamp": "10:03",
-                    "initForce": "1200",
-                    "force": "900"
-                  }
-            ]
-        },
-        {
-            "id":101,
-            "name": "C2",
-            "connectedStraps": [
-                {
-                    "id": 2,
-                    "collectorID": 101,
-                    "name": "L3",
-                    "timestamp": "10:05",
-                    "initForce": "1600",
-                    "force": "500"
-                  },
-                  {
-                    "id": 3,
-                    "collectorID": 101,
-                    "name": "L4",
-                    "timestamp": "10:10",
-                    "initForce": "800",
-                    "force": "100"
-                  }
-            ]
-        }   
-        
-    ]
+  "posts": [
+    {
+      "id": 1,
+      "title": "hello"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
+}
